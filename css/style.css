@@ -1,0 +1,85 @@
+/*-------- fonts ----- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Poppins:wght@400;500&display=swap');
+
+/* --------common ----------- */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+/* header sections  */
+.parent{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-heading{
+    font-size: 24px;
+    font-weight: bold;
+    color: #3A3A3A;
+}
+.navigation ul li{
+    list-style: none;
+    display: inline-block;
+    
+}.navigation ul li a {
+    text-decoration: none;
+    color: #3A3A3A;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 34px;  
+}
+ li a .cart{
+    width: 36px;
+    height: 36px;
+    
+}
+.banner{
+    display: flex;
+    margin-top: 50px;
+}
+.banner-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.banner-left p {
+    color: #3A3A3A;
+    font-weight: 600;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 52px;
+    color: #3A3A3A;
+}
+.primary-btn{
+    font-weight: bold;
+    font-size: 16px;
+    background-color:#e67e22;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 24px;
+    border: 0;
+}
+.arrow{
+    margin-left:8px;
+    
+}
+.banner-right{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.banner-right img {
+    width: 440px;
+    height: 414px;
+    
+}
